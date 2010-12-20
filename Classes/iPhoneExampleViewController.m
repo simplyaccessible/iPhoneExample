@@ -36,7 +36,7 @@
 	// create a UIButton (UIButtonTypeRoundedRect) and play arround with settings
 	button = [UIButton buttonWithType:UIButtonTypeRoundedRect];    
 	button.frame = CGRectMake(100, 100, 100, 50); // size and position of button
-	[button setTitle:@"Add" forState:UIControlStateNormal];
+	[button setTitle:@"Click Me" forState:UIControlStateNormal];
 	button.backgroundColor = [UIColor clearColor];
 	button.adjustsImageWhenHighlighted = YES;     
 
